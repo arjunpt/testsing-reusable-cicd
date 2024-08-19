@@ -1,4 +1,4 @@
-name: Python-Applications
+name: Python Applications
 
 on:
   push:
@@ -16,6 +16,6 @@ jobs:
       ecr-repo-name: "python"
     secrets:
       SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
+      AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
+      AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
       AWS_REGION: ${{ secrets.AWS_REGION }}
