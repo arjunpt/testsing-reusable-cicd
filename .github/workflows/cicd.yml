@@ -13,5 +13,9 @@ jobs:
       test-path: "src/test/test.py"
       dockerfile-path: "./Dockerfile"
       docker-image-name: "appdev"
+      ecr-repo-name: "python"
     secrets:
       SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
+      aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
+      aws-region: ${{ secrets.AWS_REGION }}
