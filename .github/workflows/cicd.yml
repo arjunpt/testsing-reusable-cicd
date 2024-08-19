@@ -6,7 +6,7 @@ on:
 
 jobs:
   workflow:
-    uses: arjunpt/python-reusable-cicd/.github/workflows/reusable-python.yml@main
+    uses: arjunpt/python-reusable-cicd/.github/workflows/cicd.yml@main
     with:
       python-version: "3.10"
       requirements-path: "src/requirements.txt"
