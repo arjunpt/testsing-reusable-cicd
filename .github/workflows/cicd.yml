@@ -16,7 +16,7 @@ jobs:
       ecr-repo-name: "python"
       ECR_REGISTRY: "022499010678.dkr.ecr.us-east-1.amazonaws.com"
       IMAGE_NAME: "python"
-      IMAGE_TAG: "latest
+      IMAGE_TAG: "latest"
     secrets:
       SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
