@@ -12,7 +12,6 @@ jobs:
       requirements-path: "src/requirements.txt"
       test-path: "src/test/test.py"
       dockerfile-path: "Dockerfile"
-      docker-image-name: "app-dev"
       ecr-repo-name: "python"
       ECR_REGISTRY: "022499010678.dkr.ecr.us-east-1.amazonaws.com"
       IMAGE_NAME: "python"
